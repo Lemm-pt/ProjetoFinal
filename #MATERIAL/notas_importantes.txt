@@ -1,0 +1,13 @@
+
+fazer unset da sessao mesa_num
+
+colocar recuperação de login palavra passe ou email
+
+fazer copia de seguramnaça da bd e colocala na respetiva pasta em lemm
+fazer copia de segurança da app também
+
+
+tirar o erro de php no index principal para sair do desenvolvimento
+zerar todos os ids chave primaria para 0
+
+acabar o README.txt

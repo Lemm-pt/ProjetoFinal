@@ -1,0 +1,22 @@
+{
+    "name": "wrt/fast-order",
+    "description": "App for fast orders in bars or restaurants",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Luciano Marafona",
+            "email": "lemm.pt@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "autoload": {
+      "psr-4": {
+          "core\\" : "core/"
+      },
+      "files": [
+        "config.php"
+      ]
+    }
+}
