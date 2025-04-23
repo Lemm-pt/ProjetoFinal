@@ -108,7 +108,7 @@ class Pedidos_bd
      // ================================================================
      public function verificar_pedido_user($id_user, $id_pedido)
      {
-         // verificar se a encomenda pertence ao cliente identificado
+         // verificar se o pedido pertence à mesa identificado
          $parametros = [
              ':id_user' => $id_user,
              ':id_pedido' => $id_pedido
@@ -143,7 +143,7 @@ class Pedidos_bd
              AND id_pedido = :id_pedido
          ", $parametros)[0];
  
-         // dados da lista de produtos da encomenda
+         // dados da lista de produtos do pedido
          $parametros = [
              ':id_pedido' => $id_pedido
          ];
@@ -178,7 +178,7 @@ class Pedidos_bd
              return false;
          }
  
-         // efetuar a alteração do estado da encomenda indicada
+         // efetuar a alteração do estado do  pedido indicada
          $bd->update("
              UPDATE rapidask_pedidos
              SET estado = 'PAGO',

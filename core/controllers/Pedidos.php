@@ -208,13 +208,13 @@ class pedidos
         // buscar o carrinho à sessão
         $pedidos = $_SESSION['pedidos'];
 
-        // remover o produto do carrinho
+        // remover o produto do pedido
         unset($pedidos[$id_produto]);
 
         // atualizar o carrinho na sessão
         $_SESSION['pedidos'] = $pedidos;
 
-        // apresentar novamente a página do carrinho
+        // apresentar novamente a página do pedido
         $this->minha_mesa();
     }
 
@@ -226,11 +226,11 @@ class pedidos
         // FastControl::printData($_SESSION);
         //  exit();
         /*
-            verificar se existe cliente logado
+            verificar se existe colaborador logado
             não existe?
              - colocar um referrer na sessao
              - abrir o quadro de login
-             -apos login com sucesso, regressar à loja
+             -apos login com sucesso, regressar ao menu
              - remover o referrer da sessao
              existe
              passo 2 confirmar

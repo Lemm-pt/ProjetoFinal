@@ -13,7 +13,7 @@ class Database{
     // 2 comunicar
     // 3 fechar
 
-    //privada porque só é acessivel aos metodos dentro desta classe
+    //privada só é acessivel aos metodos dentro desta classe
     private $ligacao;
 
          // ============================================================

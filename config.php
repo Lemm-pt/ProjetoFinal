@@ -10,13 +10,12 @@ define('BASE_URL', 'https://lemm.pt/Esplanapp/public/');
 define('MYSQL_SERVER',      'lhcp3350.webapps.net');
 define('MYSQL_DATABASE',    'vl2tjdok_spacet');
 define('MYSQL_USER',        'vl2tjdok_lemm');
-define('MYSQL_PASS',        'Mackyver');
-define('MYSQL_CHARSET',     'utf8');
+define('MYSQL_PASS',        '***************');//Mac 
 
 // mail
 define('EMAIL_HOST',        'smtp-pt.securemail.pro');
 define('EMAIL_FROM',        'luciano@lemm.pt');
-define('EMAIL_PASS',        'Mackyver009!?');
+define('EMAIL_PASS',        '***********************'); // Mac completa
 define('EMAIL_PORT',        465);
 define('ESTADO',            ['PENDENTE','EM PROCESSAMENTO','ENVIADA','CANCELADA','CONCLUIDA']);
 

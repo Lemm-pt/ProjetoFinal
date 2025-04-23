@@ -15,15 +15,3 @@ ls
 3. abrir pasta através vs code 
 
 
-para as atividades
-
-implementação de login e logout
-Inserção do PHPMAILER (biblioteca de envio de emails)
-datatables
-Colocar aplicação no servidor (fazer uploads no FileZila)
-implementação do backoffice e construção do CRUD na BD
-inserção do formulário para inserir prodiutos
-testes da versão alfa no back-end
-testes da versão beta no front-end
-personalizar menu no pedido
-passar do modo desenvolvedor para modo produção

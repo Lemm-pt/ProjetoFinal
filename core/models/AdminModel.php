@@ -63,7 +63,7 @@ class AdminModel
 
      public function lista_produtos()
     {
-        // vai buscar todos os produtos que já forma vendidos e os seus socks 
+        // vai buscar todos os produtos que já forma vendidos e os seus stocks 
         $bd = new Database();
         $resultados = $bd->select("
             SELECT *, SUM(pp.quantidade) as total_vendidos,
@@ -203,7 +203,7 @@ class AdminModel
     // ===========================================================
     public function buscar_encomendas_cliente($id_cliente)
     {
-        // buscar todas as encomendas do cliente indicado
+        // buscar todos os pedidos indicado
         $parametros = [
             ':id_cliente' => $id_cliente
         ];
@@ -280,14 +280,15 @@ class AdminModel
     // ===========================================================
     public function buscar_detalhes_pedido($id_pedido)
     {
-        // vai buscar os detalhes de uma encomenda
+        // vai buscar os detalhes de um pedido
         $bd = new Database();
 
         $parametros = [
             ':id_pedido' => $id_pedido
         ];
 
-        // buscar os dados da encomenda
+        // buscar os dados de um pedido
+        $bd = new Database();
         $dados_pedido = $bd->select("
             SELECT rapidask_users.user, rapidask_pedidos.* 
             FROM rapidask_users, rapidask_pedidos 
@@ -295,7 +296,7 @@ class AdminModel
             AND rapidask_pedidos.id_user = rapidask_users.id_user
             ", $parametros);
 
-        // lista de produtos da encomenda
+        // lista de produtos de um pedido
         $lista_produtos = $bd->select("
             SELECT * 
             FROM rapidask_pedido_produto 
@@ -311,7 +312,7 @@ class AdminModel
     // ===========================================================
     public function atualizar_status_encomenda($id_encomenda, $estado)
     {
-        // atualizar o estado da encomenda
+        // atualizar o estado de um pedido
         $bd = new Database();
 
         $parametros = [
