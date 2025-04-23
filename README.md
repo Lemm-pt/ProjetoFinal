@@ -29,7 +29,7 @@ Para personalizar a aplicação para diferentes ambientes (e.g., outro servidor,
 
 **Passos para Modificar as Variáveis:**
 
-1.  **Acesso ao Ficheiro:** Utilize um editor de texto ou um cliente FTP (como o FileZilla, que mencionou utilizar) para aceder e abrir o ficheiro `config.php` no seu servidor.
+1.  **Acesso ao Ficheiro:** Utilize um editor de texto ou um cliente FTP (como o FileZilla) para aceder e abrir o ficheiro `config.php` no seu servidor.
 
 2.  **Edição das Constantes:** Localize as seguintes secções e modifique os valores das constantes conforme necessário para o seu ambiente:
 
