@@ -1,7 +1,7 @@
 <?php
 
 // constantes
-define('APP_NAME', 'Fasker');
+define('APP_NAME', 'ESPLANAPP');
 define('APP_VERSION', '1.0.0');
 
 define('BASE_URL', 'https://lemm.pt/Esplanapp/public/');
@@ -10,13 +10,13 @@ define('BASE_URL', 'https://lemm.pt/Esplanapp/public/');
 define('MYSQL_SERVER',      'lhcp3350.webapps.net');
 define('MYSQL_DATABASE',    'vl2tjdok_spacet');
 define('MYSQL_USER',        'vl2tjdok_lemm');
-define('MYSQL_PASS',        '*************************');
+define('MYSQL_PASS',        'Mackyver');
 define('MYSQL_CHARSET',     'utf8');
 
 // mail
 define('EMAIL_HOST',        'smtp-pt.securemail.pro');
 define('EMAIL_FROM',        'luciano@lemm.pt');
-define('EMAIL_PASS',        '********************');
+define('EMAIL_PASS',        'Mackyver009!?');
 define('EMAIL_PORT',        465);
 define('ESTADO',            ['PENDENTE','EM PROCESSAMENTO','ENVIADA','CANCELADA','CONCLUIDA']);
 

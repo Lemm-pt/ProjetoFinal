@@ -1,0 +1,29 @@
+https://lemm.pt/Esplanapp/public/?a=menu&mesa=77 --> colocar a variavel mesa no get para os QRs codes das mesas
+
+"git" para aceder a todos os comandos possíveis
+
+1.  abrir a pasta do projeto num novo terminal:
+cd ..
+cd xampp\htdocs\
+
+
+2. clonar a pasta do projeto do git para a pasta:
+ git clone https://github.com/Lemm-pt/Esplanapp.git
+ls
+    Esplanapp...
+
+3. abrir pasta através vs code 
+
+
+para as atividades
+
+implementação de login e logout
+Inserção do PHPMAILER (biblioteca de envio de emails)
+datatables
+Colocar aplicação no servidor (fazer uploads no FileZila)
+implementação do backoffice e construção do CRUD na BD
+inserção do formulário para inserir prodiutos
+testes da versão alfa no back-end
+testes da versão beta no front-end
+personalizar menu no pedido
+passar do modo desenvolvedor para modo produção

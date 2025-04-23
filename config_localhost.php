@@ -1,14 +1,14 @@
 <?php
 
 // constantes
-define('APP_NAME', 'Fasker');
+define('APP_NAME', 'ESPLANAPP');
 define('APP_VERSION', '1.0.0');
 
-define('BASE_URL', 'https://lemm.pt/Fasker/public/');
+define('BASE_URL', 'https://lemm.pt/ESPLANAPP/public/');
 
 // MYSQL
 define('MYSQL_SERVER',      'localhost');
-define('MYSQL_DATABASE',    'fasker');
+define('MYSQL_DATABASE',    'ESPLANAPP');
 define('MYSQL_USER',        'root');
 define('MYSQL_PASS',        '');
 define('MYSQL_CHARSET',     'utf8');
